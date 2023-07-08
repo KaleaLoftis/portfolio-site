@@ -4,30 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KaleaLoftisPortfolioSite</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <p>Hi there</p>
-        <h1>I'm Kalea</h1>
-        <p>Designer | Coder | Forever Learner</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Donec ullamcorper, magna non sodales placerat, eros nibh 
-            convallis lectus, vel porta.</p>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="landing-section">Logo</a></li>
+                <li><a href="#read-me">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li class="nav-push"><a href="#contact">Say Hi!</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <section>
-            <h2>Read Me</h2>
-            <h3>Get to know me </h3>
+        <section id="landing-section">
+            <p>Hi there</p>
+            <h1>I'm Kalea</h1>
+            <h3>Designer | Coder | Forever Learner</h3>
             <p>
-                Hi again! My name is Kalea and it is nice to make your acquaintance. I was born and raised in Denver Colorado, but moved to Arizona to pursue a degree that satisfied my love for building things, designing things, and techy things.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Donec ullamcorper, magna non sodales placerat, eros nibh 
+                convallis lectus, vel porta.Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Donec ullamcorper, magna non sodales placerat, eros nibh 
+                convallis lectus, vel porta.
             </p>
-            <p>
-                The field of front end web development paired with ux/ui design is where my truly heart lies. However, through my study with Arizona State University studying graphic Information technology, I have experience creating things related to marketing, branding, design and much more.
-            </p>
-            <img src="" alt="">
         </section>
-        <section>
+        <section id="read-me">
+            <div class="read-me-info">
+                <h2>Read Me</h2>
+                <h3>Get to know me </h3>
+                <p>
+                    Hi again! My name is Kalea and it is nice to make your acquaintance. I was born and raised in Denver Colorado, but moved to Arizona to pursue a degree that satisfied my love for building things, designing things, and techy things. <br> The field of front end web development paired with ux/ui design is where my truly heart lies. However, through my study with Arizona State University studying graphic Information technology, I have experience creating things related to marketing, branding, design and much more.
+                </p>
+            </div>
+            <div class="read-me-img">
+                <img src="images/selfie.jpg" alt="a picture of myself">
+            </div>
+        </section>
+        <section id="projects">
             <h2>Skills</h2>
             <h3>Languages I Speak, Tools I Use</h3>
             <div>
@@ -63,7 +82,7 @@
                 </section>
             </div>
         </section>
-        <section>
+        <section id="#skills">
             <h2>Featured Projects</h2>
             <h3>Things I’ve Made </h3>
             <div class="card">
@@ -123,7 +142,7 @@
             </div>
             <a href="#" class="button">View More On Behance</a>
         </section>
-        <section>
+        <section id="#contact">
             <h2>Looking to Hire? Good News, I'm Looking to be Hired!</h2>
             <p>
                 If you see things you like I’d love to take the time and speak with you and have a genuine conversation abut what I have to offer! I’d love to discuss the possibility of me being a great asset to your team. 
@@ -132,12 +151,11 @@
                 Fill out the form to the side and lets get in contact! 
             </p>
             <a href="#" class="button">Resume</a>
-            
 
         </section>
     </main>
     <footer>
-        <p>Made with Care By Kalea Loftis</p>
+        <small>Made with Care By Kalea Loftis</small>
     </footer>
 </body>
 </html>
