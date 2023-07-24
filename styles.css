@@ -1,3 +1,7 @@
+:root {
+
+}
+
 body {
     margin: 0 auto;
     background-color: white;
@@ -25,14 +29,16 @@ nav {
 .nav-bar ul {
     display:flex;
     text-align: center;
-    
-    
 }
 .nav-bar li {
     list-style-type: none;
     padding-left: 20px;
-    margin-top: 20px;
+    margin-top: 25px;
     font-size: 16px;
+}
+
+.nav-bar a:hover {
+    color: rgb(240, 58, 71);
 }
 
 .nav-push {
@@ -51,6 +57,8 @@ main {
     height: 70vh;
     padding-top: 200px;
 }
+
+/* Read Me CSS*/
 
 #read-me {
     height: 100vh;
@@ -81,10 +89,121 @@ main {
     transition: .25s ease-in-out;
 }
 
+/*Skills CSS */
+#skills {
+    display: 100vh;
+}
+.wrapper {
+    display: grid;
+    grid-gap: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.wrapper section {
+    width: 300px;
+    height: 200px;
+    justify-self: center;
+    text-align: center;
+    background-color: rgba(205, 205, 205, 0.231);
+    
+}
+
+.wrapper section:hover {
+    background-color:rgba(240, 58, 70, 0.087);
+    transition: 0.2s ease-in-out;
+}
+
+.wrapper section img, i {
+    padding-top: 30px;
+}
+
+.wrapper h4 {
+    padding-top: 10px;
+}
+
+.canva-logo {
+    width: 75px;
+}
+
+/*Featured Projects CSS */
+
+.card-wrapper {
+    display: grid;
+    grid-row-gap: 40px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.card-wrapper div {
+    justify-self: center;
+}
+.card img { 
+    width: 400px;
+}
+.card-container {
+    width: 300px;
+    height: 400px;
+    background: url(images/NIKE\ \ AD.jpg);
+    background-color: black;
+    background-size: cover;s
+    cursor: pointer;
+}
+
+.card-content {
+    background-color: rgba(52, 50, 49, 0.87) ;
+    max-width: 300px;
+    height: 400px;
+    opacity: 0; 
+    transition: 0.5s;
+}
+
+.card-content:hover {
+    color: white;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.card-text {
+    padding: 20px;
+}
+
+.card-text h4 {
+    padding-bottom: 10px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.card-text h5 {
+    padding-bottom: 25px;
+}
+.card-text p {
+    font-size: 18px;
+    line-height: 27px;
+}
+.card-text a {
+    color: white;
+    font-size: 12px;
+    position: relative;
+    bottom: 0px;
+}
+
+.card-text a:hover {
+    color: rgb(240, 58, 71);
+}
+
+
+/*Contact CSS */
+
+#Contact{
+    display: 100vh;
+}
 
 footer {
 grid-row:3/4;
 }
+
+
 
 /*Text Styles*/
 h1 {
@@ -95,7 +214,7 @@ h1 {
     margin-bottom: 10px;
 }
 
-h2,h3,h4, a {
+h2,h3,h4, h5, a  {
     font-family: 'Montserrat', sans-serif;  
 }
 
@@ -104,7 +223,11 @@ h2 {
 }
 
 h3 {
-    color:rgba(63, 63, 63, 0.279);
+    color:rgba(63, 63, 63, 0.541);
+}
+
+h4 {
+    color: rgb(240, 58, 71);
 }
 
 p {
