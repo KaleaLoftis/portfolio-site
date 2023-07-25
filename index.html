@@ -22,7 +22,7 @@
                 <li><a href="#read-me">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li class="nav-push"><a href="#contact">Say Hi!</a></li>
+                <li class="nav-push"><a href="#contact" class="button">Say Hi!</a></li>
             </ul>
         </nav>
     </header>
@@ -92,11 +92,11 @@
                 </section>
             </div>
         </section>
-        <section id="#projects">
+        <section id="projects">
             <h2>Featured Projects</h2>
             <h3>Things I’ve Made </h3>
             <div class="card-wrapper">
-                <div class="card-container">
+                <div class="card-container" id="card-one">
                     <div class="card-content">
                         <div class="card-text">
                             <h4>Card Heading</h4>
@@ -108,7 +108,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card-container">
+                <div class="card-container" id="card-two">
                     <div class="card-content">
                         <div class="card-text">
                             <h4>Card Heading</h4>
@@ -120,7 +120,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card-container">
+                <div class="card-container" id="card-three">
                     <div class="card-content">
                         <div class="card-text">
                             <h4>Card Heading</h4>
@@ -132,7 +132,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card-container">
+                <div class="card-container" id="card-four">
                     <div class="card-content">
                         <div class="card-text">
                             <h4>Card Heading</h4>
@@ -144,7 +144,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card-container">
+                <div class="card-container" id="card-five">
                     <div class="card-content">
                         <div class="card-text">
                             <h4>Card Heading</h4>
@@ -157,34 +157,43 @@
                     </div>
                 </div>
             </div>
-            <a href="#" class="button">View More On Behance</a>
+            <a href="#" class="button" id="button-p">View More On Behance</a>
         </section>
         <section id="#contact">
-            <div>
-                <h2>Looking to Hire? Good News, I'm Looking to be Hired!</h2>
-            </div>
-            <div>
-                <p>
-                    If you see things you like I’d love to take the time and speak with you and have a genuine conversation abut what I have to offer! I’d love to discuss the possibility of me being a great asset to your team. 
-                </p>
-                <p>
-                    Fill out the form and lets get in contact! 
-                </p>
-                <a href="#" class="button">Resume</a>
-            </div>
-            <div>
-                <form action="/index.html">
-                    <label for="name"></label>
-                    <input type="text" id="name" name="full-name" placeholder = "Name">
+            <div class="contact-wrapper">
+                <div class="contact-header">
+                    <h2>Looking to Hire? <br> Good News, I'm Looking to be Hired!</h2>
+                </div>
+                <div>
+                    <p>
+                        If you see things you like I’d love to take the time and speak with you and have a genuine conversation abut what I have to offer! I’d love to discuss the possibility of me being a great asset to your team. 
+                    </p>
+                    <p>
+                        Fill out the form and lets get in contact! 
+                    </p>
+                    <a href="#" class="">Resume</a>
+                </div>
+                <div>
+                    <form action="/index.html">
+                        <label for="name"></label>
+                        <input type="text" id="name" name="full-name" placeholder = "Name">
+    
+                        <label for="email"></label>
+                        <input type="email" id="email" name="email-address" placeholder="Email">
+    
+                        <label for="number"></label>
+                        <input type="number" id="number" name="phone-number" placeholder="Number">
+    
+                        <label for="subject"></label>
+                        <input type="text" id="subject" name="subject-line" placeholder="Subject Line">
+    
+                        <label for="message"></label>
+                        <input type="text" id="message" name="email-message" placeholder="Message">
 
-                    <label for="email"></label>
-                    <input type="email" id="email" name="email-address" placeholder="Email">
-
-                    <label for="number"></label>
-                    <input type="number" id="number" name="phone-number" placeholder="Number">
-
-
-                </form>
+                        <label for="submit"></label>
+                        <input type="submit" id="submit" class="button" name="submit-button">
+                    </form>
+                </div>
             </div>
         </section>
     </main>
