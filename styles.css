@@ -78,7 +78,7 @@ main {
 /* Landing-Section */
 
 #landing-section {
-    height: 70vh;
+    height: 60vh;
     padding-top: 200px;
 }
 
@@ -154,11 +154,6 @@ main {
     text-align: center;
     background-color: rgba(205, 205, 205, 0.231);
     
-}
-
-.wrapper section:hover {
-    background-color:rgba(240, 58, 70, 0.087);
-    transition: 0.2s ease-in-out;
 }
 
 .wrapper section img, i {
@@ -290,7 +285,7 @@ footer {
 justify-self: center;
 grid-row:3/4;
 margin-top: 70px;
-text-align: center;
+text-align: left;
 border-top: 1px solid rgb(52, 50, 49);
 width: 80%;
 padding: 40px;
@@ -335,6 +330,55 @@ a {
 
 }
 
+/*Project1 HTML*/ 
+
+.project-img-size {
+    width:100%;
+    max-width: 600px;
+    min-width: 375px;
+    display: block;
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    height:auto;
+   
+ }
+
+ .project-skills-wrapper {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 30px;
+ }
+
+  .project-skills {
+    width: 120px;
+    height: 80px;
+    text-align: center;
+    background-color: rgba(205, 205, 205,  0.541);
+    
+}
+
+.project-skills-wrapper img {
+    padding-top: 15px;
+    width: 32px; 
+}
+
+.project-skills-wrapper section i {
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+.mockup-portion a {
+    display: block;
+    width: 150px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
 
 @media screen and (min-width: 780px) {
     body{
@@ -344,6 +388,7 @@ a {
     header {
         width:780px;
     }
+
 
     #read-me {
         grid-column-gap: 40px;
@@ -370,6 +415,7 @@ a {
         grid-template-columns: 1fr 1fr;
         column-gap: 50px;
     }
+
     
 
 }
@@ -392,6 +438,7 @@ a {
     .wrapper {
         grid-template-columns: 1fr 1fr 1fr;
     }
+
 
  
 
